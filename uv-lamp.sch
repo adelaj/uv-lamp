@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:uv-lamp-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ U 1 1 5CB3BCEA
 P 1150 1150
 F 0 "J2" H 1205 1467 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 1205 1376 50  0000 C CNN
-F 2 "Connectors:BARREL_JACK" H 1200 1110 50  0001 C CNN
+F 2 "mod:BARREL_JACK" H 1200 1110 50  0001 C CNN
 F 3 "~" H 1200 1110 50  0001 C CNN
 	1    1150 1150
 	1    0    0    -1  
@@ -51,7 +50,7 @@ U 1 1 5CBBAC93
 P 2000 1050
 F 0 "F1" V 1775 1050 50  0000 C CNN
 F 1 "Polyfuse" V 1866 1050 50  0000 C CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2050 850 50  0001 L CNN
+F 2 "mod:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2050 850 50  0001 L CNN
 F 3 "~" H 2000 1050 50  0001 C CNN
 	1    2000 1050
 	0    1    1    0   
@@ -62,7 +61,7 @@ U 1 1 5CBBB319
 P 3150 1100
 F 0 "D1" V 3104 1179 50  0000 L CNN
 F 1 "SMBJ26CA" V 3195 1179 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMB_Handsoldering" H 3150 1100 50  0001 C CNN
+F 2 "mod:D_SMB_Handsoldering" H 3150 1100 50  0001 C CNN
 F 3 "~" H 3150 1100 50  0001 C CNN
 	1    3150 1100
 	0    1    1    0   
@@ -146,7 +145,7 @@ U 1 1 5CBD4C10
 P 850 6100
 F 0 "J1" H 956 6478 50  0000 C CNN
 F 1 "Conn" H 956 6387 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 850 6100 50  0001 C CNN
+F 2 "mod:Pin_Header_Straight_2x03_Pitch2.54mm" H 850 6100 50  0001 C CNN
 F 3 "~" H 850 6100 50  0001 C CNN
 	1    850  6100
 	1    0    0    -1  
@@ -283,7 +282,7 @@ U 1 1 5CCAFCDF
 P 4500 900
 F 0 "H1" H 4600 946 50  0000 L CNN
 F 1 "MountingHole" H 4600 855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 4500 900 50  0001 C CNN
+F 2 "mod:MountingHole_4.3mm_M4_Pad" H 4500 900 50  0001 C CNN
 F 3 "~" H 4500 900 50  0001 C CNN
 	1    4500 900 
 	1    0    0    -1  
@@ -294,7 +293,7 @@ U 1 1 5CCAFD7D
 P 4500 1100
 F 0 "H2" H 4600 1146 50  0000 L CNN
 F 1 "MountingHole" H 4600 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 4500 1100 50  0001 C CNN
+F 2 "mod:MountingHole_4.3mm_M4_Pad" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
 	1    4500 1100
 	1    0    0    -1  
@@ -309,7 +308,7 @@ U 1 1 5CCC5504
 P 4500 1300
 F 0 "H11" H 4600 1346 50  0000 L CNN
 F 1 "MountingHole" H 4600 1255 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 4500 1300 50  0001 C CNN
+F 2 "mod:MountingHole_4.3mm_M4_Pad" H 4500 1300 50  0001 C CNN
 F 3 "~" H 4500 1300 50  0001 C CNN
 	1    4500 1300
 	1    0    0    -1  
@@ -320,7 +319,7 @@ U 1 1 5CCC550A
 P 4500 1500
 F 0 "H12" H 4600 1546 50  0000 L CNN
 F 1 "MountingHole" H 4600 1455 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 4500 1500 50  0001 C CNN
+F 2 "mod:MountingHole_4.3mm_M4_Pad" H 4500 1500 50  0001 C CNN
 F 3 "~" H 4500 1500 50  0001 C CNN
 	1    4500 1500
 	1    0    0    -1  
@@ -331,7 +330,7 @@ U 1 1 5CCDD210
 P 2450 4550
 F 0 "J3" H 2556 4828 50  0000 C CNN
 F 1 "Jmp" H 2556 4737 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2450 4550 50  0001 C CNN
+F 2 "mod:Pin_Header_Straight_2x02_Pitch2.54mm" H 2450 4550 50  0001 C CNN
 F 3 "~" H 2450 4550 50  0001 C CNN
 	1    2450 4550
 	-1   0    0    1   
@@ -344,7 +343,7 @@ AR Path="/5CB5A3BC/5CCECD83" Ref="D?"  Part="1"
 AR Path="/5CCECD83" Ref="D88"  Part="1" 
 F 0 "D88" V 1804 4979 50  0000 L CNN
 F 1 "ZMM5V1" V 1895 4979 50  0000 L CNN
-F 2 "Diodes_SMD:D_MiniMELF_Handsoldering" H 1850 4900 50  0001 C CNN
+F 2 "mod:D_MiniMELF_Handsoldering" H 1850 4900 50  0001 C CNN
 F 3 "~" H 1850 4900 50  0001 C CNN
 	1    1850 4900
 	0    -1   1    0   
@@ -355,7 +354,7 @@ U 1 1 5CCECD8C
 P 1850 4100
 F 0 "R14" H 1920 4146 50  0000 L CNN
 F 1 "2.2k" H 1920 4055 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 1780 4100 50  0001 C CNN
+F 2 "mod:R_1206_HandSoldering" V 1780 4100 50  0001 C CNN
 F 3 "~" H 1850 4100 50  0001 C CNN
 	1    1850 4100
 	-1   0    0    -1  
@@ -379,7 +378,7 @@ AR Path="/5CB5A3BC/5CCDB116" Ref="R?"  Part="1"
 AR Path="/5CCDB116" Ref="R1"  Part="1" 
 F 0 "R1" V 1593 5900 50  0000 C CNN
 F 1 "2k" V 1684 5900 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 1730 5900 50  0001 C CNN
+F 2 "mod:R_1206_HandSoldering" V 1730 5900 50  0001 C CNN
 F 3 "~" H 1800 5900 50  0001 C CNN
 	1    1800 5900
 	0    1    1    0   
@@ -392,7 +391,7 @@ AR Path="/5CB5A3BC/5CCDBA9E" Ref="R?"  Part="1"
 AR Path="/5CCDBA9E" Ref="R6"  Part="1" 
 F 0 "R6" V 1593 6200 50  0000 C CNN
 F 1 "2k" V 1684 6200 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 1730 6200 50  0001 C CNN
+F 2 "mod:R_1206_HandSoldering" V 1730 6200 50  0001 C CNN
 F 3 "~" H 1800 6200 50  0001 C CNN
 	1    1800 6200
 	0    1    1    0   
@@ -436,7 +435,7 @@ AR Path="/5CB5A3BC/5CCF27A7" Ref="R?"  Part="1"
 AR Path="/5CCF27A7" Ref="R19"  Part="1" 
 F 0 "R19" V 2593 5500 50  0000 C CNN
 F 1 "0" V 2684 5500 50  0000 C CNN
-F 2 "Resistors_SMD:R_2010_HandSoldering" V 2730 5500 50  0001 C CNN
+F 2 "mod:R_2010_HandSoldering" V 2730 5500 50  0001 C CNN
 F 3 "~" H 2800 5500 50  0001 C CNN
 	1    2800 5500
 	0    1    1    0   
@@ -449,7 +448,7 @@ AR Path="/5CB5A3BC/5CCF3D18" Ref="R?"  Part="1"
 AR Path="/5CCF3D18" Ref="R18"  Part="1" 
 F 0 "R18" H 1920 3596 50  0000 L CNN
 F 1 "0" H 1920 3505 50  0000 L CNN
-F 2 "Resistors_SMD:R_2010_HandSoldering" V 1780 3550 50  0001 C CNN
+F 2 "mod:R_2010_HandSoldering" V 1780 3550 50  0001 C CNN
 F 3 "~" H 1850 3550 50  0001 C CNN
 	1    1850 3550
 	1    0    0    -1  
@@ -471,7 +470,7 @@ AR Path="/5CB5A3BC/5CCFD9EC" Ref="C?"  Part="1"
 AR Path="/5CCFD9EC" Ref="C6"  Part="1" 
 F 0 "C6" H 4815 2496 50  0000 L CNN
 F 1 "2.2u" H 4815 2405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4738 2300 50  0001 C CNN
+F 2 "mod:C_1210_HandSoldering" H 4738 2300 50  0001 C CNN
 F 3 "~" H 4700 2450 50  0001 C CNN
 	1    4700 2450
 	1    0    0    -1  
@@ -484,7 +483,7 @@ AR Path="/5CB5A3BC/5CCFD9F4" Ref="C?"  Part="1"
 AR Path="/5CCFD9F4" Ref="C8"  Part="1" 
 F 0 "C8" H 5265 2496 50  0000 L CNN
 F 1 "100u" H 5265 2405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1812_HandSoldering" H 5188 2300 50  0001 C CNN
+F 2 "mod:C_1812_HandSoldering" H 5188 2300 50  0001 C CNN
 F 3 "~" H 5150 2450 50  0001 C CNN
 	1    5150 2450
 	1    0    0    -1  
@@ -497,7 +496,7 @@ AR Path="/5CB5A3BC/5CCFD9FC" Ref="C?"  Part="1"
 AR Path="/5CCFD9FC" Ref="C3"  Part="1" 
 F 0 "C3" H 4365 2496 50  0000 L CNN
 F 1 "220n" H 4365 2405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4288 2300 50  0001 C CNN
+F 2 "mod:C_1206_HandSoldering" H 4288 2300 50  0001 C CNN
 F 3 "~" H 4250 2450 50  0001 C CNN
 	1    4250 2450
 	1    0    0    -1  
